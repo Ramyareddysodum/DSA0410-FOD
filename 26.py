@@ -1,7 +1,7 @@
 import pandas as pd
 from scipy import stats
 
-file_path = "C:\\Users\\Vamshi Krishna\\Desktop\\online.csv"  
+file_path = "C:\\Users\\FODS\\Desktop\\online.csv"  
 data = pd.read_csv(file_path)
 
 ratings = data['reviews rating ']
